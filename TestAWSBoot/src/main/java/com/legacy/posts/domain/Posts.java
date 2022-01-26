@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name="posts")
-public class Posts {
+public class Posts extends BaseTimeEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
